@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Art MCQ Live Poll</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="poll-shell">
+      <header class="page-header">
+        <p class="eyebrow">Live art poll</p>
+        <h1>Artwork keyword poll</h1>
+        <p class="choice-note">These are multiple choice questions. You can choose one or more answers.</p>
+      </header>
+
+      <section id="questions" class="question-grid" aria-label="Artwork questions"></section>
+
+      <section class="share-section" aria-label="Share this poll">
+        <div>
+          <h2>Join from your phone</h2>
+          <a id="public-url" class="public-url" href="/">Loading public URL...</a>
+        </div>
+        <img id="qr-code" class="qr-code" alt="QR code for the poll URL" />
+      </section>
+
+      <section class="results-section" aria-live="polite">
+        <h2>Live results</h2>
+        <div id="charts" class="chart-grid"></div>
+      </section>
+
+      <p id="message" class="message" role="status"></p>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

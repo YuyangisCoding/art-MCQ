@@ -1,0 +1,14 @@
+{
+  "name": "art-mcq-poll-app",
+  "version": "1.0.0",
+  "description": "A live multi-select art keyword poll using Express and vanilla JavaScript.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.10.0",
+    "express": "^4.19.2",
+    "qrcode": "^1.5.4"
+  }
+}
